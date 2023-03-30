@@ -1,6 +1,6 @@
 # The Backtracking Dynamical Cavity Method
 
-This is the code accompanying the paper ''The Backtracking Dynamical Cavity Method'' [arxiv](TOLINK) by Freya Behrens, Barbora Hudcová and Lenka Zdeborová.
+This is the code accompanying the paper ''The Backtracking Dynamical Cavity Method'' by Freya Behrens, Barbora Hudcová and Lenka Zdeborová [[arxiv:2303.16536]](https://arxiv.org/abs/2303.16536).
 
 ## Usage
 This repository provides a solver for the BDCM for $(p/c)$ backtracking attractors where the update rule is homogenous and independent of the neighbours ordering.
@@ -8,8 +8,8 @@ We also provide the functionalities to compute numerical simulations.
 All necessary code can be found in the `src` directory.
 
 For the usage of the solver and empirics, see some examples from the paper in
-- [Application A - Limiting energy of a quench.ipynb](Application A - Limiting energy of a quench.ipynb)
-- [Application B - Dynamical Phase transitions for majority dynamics.ipynb](Application B - Dynamical Phase transitions for majority dynamics.ipynb)
+- `Application A - Limiting energy of a quench.ipynb`
+- `Application B - Dynamical Phase transitions for majority dynamics.ipynb`
 These finish their computation in reasonable time ($p=1$). Note that for larger $p$, the time and memory scaling exponential, so it will take much longer (and quickly forever) to compute.
 
 
